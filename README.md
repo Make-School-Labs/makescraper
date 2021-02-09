@@ -2,7 +2,7 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/YOUR_GITHUB_USERNAME/makescraper)](https://goreportcard.com/report/github.com/YOUR_GITHUB_USERNAME/makescraper)
 
-_Create your very own web scraper and crawler using Go and [Colly](https://go-colly.org)!_
+_Create your very own web scraper and crawler using Go and [chromedp](https://github.com/chromedp/chromedp)!_
 
 ### 📚 Table of Contents
 
@@ -29,6 +29,7 @@ _Create your very own web scraper and crawler using Go and [Colly](https://go-co
     $ cd makescraper
     $ git remote rm origin
     $ git remote add origin git@github.com:YOUR_GITHUB_USERNAME/makescraper.git
+    $ git checkout chromedp
     $ go mod download
     ```
 
@@ -62,13 +63,12 @@ _Complete each task in the order they appear. Use [GitHub Task List](https://hel
 ### Lesson Plans
 
 - [**BEW 2.5** - Scraping the Web](https://make-school-courses.github.io/BEW-2.5-Strongly-Typed-Languages/#/Lessons/WebScraping.md): Concepts and examples covered in class related to web scraping and crawling.
+- [**VIDEO** - chromedp: A New Way to Drive the Web](https://www.youtube.com/watch?v=_7pWCg94sKw): GopherCon SG 2017 talk
 
 ### Example Code
 
-#### Scraping
-
-- [**Colly** - Docs](http://go-colly.org/docs/): Check out the sidebar for 20+ examples!
-- [**Ali Shalabi** - Syntax-Helper](https://github.com/alishalabi/syntax-helper): Command line interface to help generate proper code syntax, pulled from the Golang documentation.
+- [chromedp/examples](https://github.com/chromedp/examples): various `chromedp` examples
+- [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/): Chrome DevTools Protocol Domain documentation
 
 #### Serializing & Saving
 
